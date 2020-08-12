@@ -50,20 +50,26 @@ let span = document.querySelector('.close-popup');
 
 btn.addEventListener("click", function() {
     modal.classList.add("open");
+    body.classList.add("no-scroll");
 });
 btn2.addEventListener("click", function() {
     modal.classList.add("open");
+    body.classList.add("no-scroll");
 });
 btn3.addEventListener("click", function() {
     modal.classList.add("open");
+    body.classList.add("no-scroll");
 });
 btn4.addEventListener("click", function() {
     modal.classList.add("open");
+    body.classList.add("no-scroll");
 });
 btn5.addEventListener("click", function() {
     modal.classList.add("open");
+    body.classList.add("no-scroll");
 });
 
 span.addEventListener("click", function() {
     modal.classList.remove("open");
+    body.classList.remove("no-scroll");
 });
